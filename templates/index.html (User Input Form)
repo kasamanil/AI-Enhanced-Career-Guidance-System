@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Guidance System</title>
+</head>
+<body>
+  <h2>Enter Your Details</h2>
+  <form action="/predict" method="POST">
+    <label>Programming Skills (0-10):</label>
+    <input type="number" name="prog" min="0" max="10" required><br><br>
+    
+    <label>Maths Knowledge (0-10):</label>
+    <input type="number" name="maths" min="0" max="10" required><br><br>
+    
+    <label>Communication Skills (0-10):</label>
+    <input type="number" name="comm" min="0" max="10" required><br><br>
+    
+    <label>Problem Solving (0-10):</label>
+    <input type="number" name="prob" min="0" max="10" required><br><br>
+    
+    <button type="submit">Get Career Recommendation</button>
+  </form>
+</body>
+</html>
