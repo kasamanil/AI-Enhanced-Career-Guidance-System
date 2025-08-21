@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Results</title>
+</head>
+<body>
+  <h2>Recommended Career Path</h2>
+  <p>Your best fit career is: <b>{{ career }}</b></p>
+  <a href="/">Try Again</a>
+</body>
+</html>
